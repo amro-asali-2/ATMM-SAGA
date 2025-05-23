@@ -52,7 +52,7 @@ class SASVScoreAttention(nn.Module):
     ):
         """
         Args:
-            asv_embed_dim: Dimension of concatenated enrollment and test ASV embeddings.
+            asv_embed_dim: Dimension of ASV embeddings.
             cm_embed_dim: Dimension of CM embeddings.
             score_activation: Activation for final output ('sigmoid' supported).
         """
