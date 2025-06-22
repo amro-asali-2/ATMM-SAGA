@@ -195,7 +195,7 @@ def train_one_epoch(model, train_loader, optimizer, criterion, lambda_val, devic
     return epoch_loss, loss_asv, loss_cm
 
 # ========== Main Training Loop ==========
-def train(model, train_loaders, num_epochs, device):
+def train(model, train_loaders, num_epochs, model_filename, device):
     optimizers = get_optimizers(model)
     criterion = nn.BCEWithLogitsLoss()
     for epoch in range(num_epochs):
@@ -218,4 +218,4 @@ if __name__ == "__main__":
     train_loaders = [spf_trainloader, bnf_trainloader]
     model = SASVScoreAttention(asv_embed_dim=192, cm_embed_dim=160).to(device)
     model_filename = os.path.join(MODEL_DIR, f"{model.get_name()}.pth")
-    train(model, train_loaders, NUM_EPOCHS, device)
+    train(model, train_loaders, NUM_EPOCHS, model_filename, device)
