@@ -1,7 +1,7 @@
 # ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification
 
 Official implementation of the paper:  
-📄 **[ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification](https://arxiv.org/pdf/2505.18273)**  
+📄 **[ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification](https://arxiv.org/abs/2505.18273)**  
 Presented at **Interspeech 2025**.
 
 
