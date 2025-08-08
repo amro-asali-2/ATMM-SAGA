@@ -1,12 +1,11 @@
-# ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification
-
+# ATMM-SAGA: Alternating Training for Multi-Module with Score-Aware Gated Attention SASV system
 Official implementation of the paper:  
-📄 **[ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification](https://arxiv.org/abs/2505.18273)**  
+📄 **[Alternating Training for Multi-Module with Score-Aware Gated Attention SASV system](https://arxiv.org/abs/2505.18273)**  
 Presented at **Interspeech 2025**.
 
 
 @inproceedings{atmmsaga,
-  title     = {ATMM-SAGA: Score-Aware Gated Attention with Alternating Training for Robust Speaker Verification},
+  title     = {ATMM-SAGA: Alternating Training for Multi-Module with Score-Aware Gated Attention SASV system},
   author    = {Amro Asali, Yehuda Ben-Shimol, Itshak Lapidot},
   booktitle = {Proc. Interspeech},
   year      = {2025}
